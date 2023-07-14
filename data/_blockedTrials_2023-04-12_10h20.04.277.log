@@ -1,0 +1,52 @@
+1.0433 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.7709 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.7719 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa9e3ca0880>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa9a2d011c0>, multiSample=False, name='window1', numSamples=2, pos=(820, 430), screen=0, size=array([2400, 1600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.7722 	EXP 	window1: mouseVisible = True
+6.7723 	EXP 	window1: mouseVisible = True
+6.7723 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.7723 	EXP 	window1: recordFrameIntervals = False
+6.8553 	EXP 	window1: recordFrameIntervals = True
+7.6885 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.7445 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+9.4046 	EXP 	Created left_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_stimuli', opacity=1.0, ori=0.0, pos=array([-0.3,  0.2]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+9.4073 	EXP 	Created right_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_stimuli', opacity=1.0, ori=0.0, pos=array([0.3, 0.2]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+9.4099 	EXP 	Created target_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_stim', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+9.4116 	EXP 	Created fix_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fix_cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.4185 	EXP 	Imported chooseBlocksA.xlsx as conditions, 9 conditions, 3 params
+9.4190 	EXP 	Created sequence: sequential, trialTypes=9, nReps=2, seed=None
+9.4193 	EXP 	New trial (rep=0, index=0): {'condsFile': 'shapes.xlsx', 'readyMSG': 'Comparez les formes', 'jitter': 3}
+9.4425 	WARNING 	t of last frame was 1754.40ms (=1/0)
+9.4425 	EXP 	textbox: autoLog = True
+9.4425 	EXP 	textbox: autoDraw = True
+11.4311 	EXP 	Imported shapes.xlsx as conditions, 12 conditions, 5 params
+11.4320 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+11.4324 	EXP 	New trial (rep=0, index=0): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+11.5471 	WARNING 	t of last frame was 126.49ms (=1/7)
+11.5471 	EXP 	textbox: autoDraw = False
+11.5471 	EXP 	left_stimuli: image = 'circle.png'
+11.5471 	EXP 	right_stimuli: image = 'orizontal.png'
+11.5471 	EXP 	target_stim: image = 'orizontal.png'
+11.9114 	EXP 	left_stimuli: autoDraw = True
+11.9114 	EXP 	right_stimuli: autoDraw = True
+11.9114 	EXP 	target_stim: autoDraw = True
+15.9068 	EXP 	New trial (rep=0, index=1): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'vertical.png', 'target': 'orizontal.png', 'correct_answer': 1}
+16.0241 	WARNING 	t of last frame was 119.55ms (=1/8)
+16.0241 	EXP 	left_stimuli: autoDraw = False
+16.0241 	EXP 	right_stimuli: autoDraw = False
+16.0241 	EXP 	target_stim: autoDraw = False
+16.0241 	EXP 	left_stimuli: autoDraw = False
+16.0241 	EXP 	right_stimuli: autoDraw = False
+16.0241 	EXP 	target_stim: autoDraw = False
+16.0241 	EXP 	left_stimuli: image = 'orizontal.png'
+16.0241 	EXP 	right_stimuli: image = 'vertical.png'
+16.0241 	EXP 	target_stim: image = 'orizontal.png'
+16.1259 	WARNING 	t of last frame was 21.67ms (=1/46)
+16.1483 	DATA 	Keypress: escape
+16.1525 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+16.6624 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,31 @@
+1.4807 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.4563 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.4574 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8a549598b0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f8a0409c910>, multiSample=False, name='window1', numSamples=2, pos=(820, 430), screen=0, size=array([2400, 1600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.4579 	EXP 	window1: mouseVisible = True
+7.4580 	EXP 	window1: mouseVisible = True
+7.4582 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.4583 	EXP 	window1: recordFrameIntervals = False
+7.5513 	EXP 	window1: recordFrameIntervals = True
+8.3890 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.4489 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.3520 	EXP 	Created left_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_stimuli', opacity=1.0, ori=0.0, pos=array([-0.3,  0.2]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+10.3551 	EXP 	Created right_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_stimuli', opacity=1.0, ori=0.0, pos=array([0.3, 0.2]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+10.3577 	EXP 	Created target_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_stim', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+10.3602 	EXP 	Created fix_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fix_cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.3679 	EXP 	Imported chooseBlocksA.xlsx as conditions, 9 conditions, 3 params
+10.3690 	EXP 	Created sequence: sequential, trialTypes=9, nReps=2, seed=None
+10.3692 	EXP 	New trial (rep=0, index=0): {'condsFile': 'shapes.xlsx', 'readyMSG': 'Comparez les formes', 'jitter': 3}
+10.4044 	WARNING 	t of last frame was 2015.56ms (=1/0)
+10.4044 	EXP 	textbox: autoLog = True
+10.4044 	EXP 	textbox: autoDraw = True
+12.3790 	EXP 	Imported shapes.xlsx as conditions, 12 conditions, 5 params
+12.3813 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+12.3817 	EXP 	New trial (rep=0, index=0): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'circle.png', 'correct_answer': 1}
+12.3825 	DEPRECATION 	Couldn't find image circle.png; check path? (tried: /Users/anastasiosdadiotes/Desktop/Hariri_Task/circle.png)
+12.3988 	EXP 	window1: mouseVisible = True

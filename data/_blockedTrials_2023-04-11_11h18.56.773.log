@@ -1,0 +1,635 @@
+1.2112 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.2658 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.2671 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff3940d98b0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff3313bb100>, multiSample=False, name='window1', numSamples=2, pos=(920, 480), screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.2676 	EXP 	window1: mouseVisible = True
+7.2677 	EXP 	window1: mouseVisible = True
+7.2677 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.2678 	EXP 	window1: recordFrameIntervals = False
+7.3487 	EXP 	window1: recordFrameIntervals = True
+8.1823 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.2452 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.1615 	EXP 	Created left_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_stimuli', opacity=1.0, ori=0.0, pos=array([-0.3,  0.2]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+10.1647 	EXP 	Created right_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_stimuli', opacity=1.0, ori=0.0, pos=array([0.3, 0.2]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+10.1673 	EXP 	Created target_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_stim', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+10.1873 	EXP 	Created blanc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='blanc', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1942 	EXP 	Imported chooseBlocksB.xlsx as conditions, 9 conditions, 2 params
+10.1951 	EXP 	Created sequence: sequential, trialTypes=9, nReps=1, seed=None
+10.1953 	EXP 	New trial (rep=0, index=0): {'condsFile': 'shapes.xlsx', 'readyMSG': 'Comparez les formes'}
+10.2185 	WARNING 	t of last frame was 2036.51ms (=1/0)
+10.2185 	EXP 	textbox: autoLog = True
+10.2185 	EXP 	textbox: autoDraw = True
+12.2090 	EXP 	Imported shapes.xlsx as conditions, 12 conditions, 5 params
+12.2113 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+12.2118 	EXP 	New trial (rep=0, index=0): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+12.2550 	WARNING 	t of last frame was 56.51ms (=1/17)
+12.2550 	EXP 	textbox: autoDraw = False
+12.2550 	EXP 	left_stimuli: image = 'circle.png'
+12.2550 	EXP 	right_stimuli: image = 'orizontal.png'
+12.2550 	EXP 	target_stim: image = 'orizontal.png'
+12.6889 	EXP 	left_stimuli: autoDraw = True
+12.6889 	EXP 	right_stimuli: autoDraw = True
+12.6889 	EXP 	target_stim: autoDraw = True
+16.6832 	EXP 	New trial (rep=0, index=1): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'vertical.png', 'target': 'vertical.png', 'correct_answer': 2}
+16.7318 	WARNING 	t of last frame was 49.92ms (=1/20)
+16.7318 	EXP 	left_stimuli: autoDraw = False
+16.7318 	EXP 	right_stimuli: autoDraw = False
+16.7318 	EXP 	target_stim: autoDraw = False
+16.7318 	EXP 	left_stimuli: autoDraw = False
+16.7318 	EXP 	right_stimuli: autoDraw = False
+16.7318 	EXP 	target_stim: autoDraw = False
+16.7318 	EXP 	left_stimuli: image = 'orizontal.png'
+16.7318 	EXP 	right_stimuli: image = 'vertical.png'
+16.7318 	EXP 	target_stim: image = 'vertical.png'
+17.1863 	EXP 	left_stimuli: autoDraw = True
+17.1863 	EXP 	right_stimuli: autoDraw = True
+17.1863 	EXP 	target_stim: autoDraw = True
+21.1713 	EXP 	New trial (rep=0, index=2): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'circle.png', 'target': 'circle.png', 'correct_answer': 2}
+21.2208 	WARNING 	t of last frame was 50.40ms (=1/19)
+21.2208 	EXP 	left_stimuli: autoDraw = False
+21.2208 	EXP 	right_stimuli: autoDraw = False
+21.2208 	EXP 	target_stim: autoDraw = False
+21.2208 	EXP 	left_stimuli: autoDraw = False
+21.2208 	EXP 	right_stimuli: autoDraw = False
+21.2208 	EXP 	target_stim: autoDraw = False
+21.2208 	EXP 	left_stimuli: image = 'vertical.png'
+21.2208 	EXP 	right_stimuli: image = 'circle.png'
+21.2208 	EXP 	target_stim: image = 'circle.png'
+21.6869 	EXP 	left_stimuli: autoDraw = True
+21.6869 	EXP 	right_stimuli: autoDraw = True
+21.6869 	EXP 	target_stim: autoDraw = True
+25.6831 	EXP 	New trial (rep=0, index=3): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'circle.png', 'target': 'vertical.png', 'correct_answer': 1}
+25.7264 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+25.7263 	EXP 	left_stimuli: autoDraw = False
+25.7263 	EXP 	right_stimuli: autoDraw = False
+25.7263 	EXP 	target_stim: autoDraw = False
+25.7263 	EXP 	left_stimuli: autoDraw = False
+25.7263 	EXP 	right_stimuli: autoDraw = False
+25.7263 	EXP 	target_stim: autoDraw = False
+25.7263 	EXP 	left_stimuli: image = 'vertical.png'
+25.7263 	EXP 	right_stimuli: image = 'circle.png'
+25.7263 	EXP 	target_stim: image = 'vertical.png'
+26.1870 	EXP 	left_stimuli: autoDraw = True
+26.1870 	EXP 	right_stimuli: autoDraw = True
+26.1870 	EXP 	target_stim: autoDraw = True
+30.1715 	EXP 	New trial (rep=0, index=4): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'circle.png', 'target': 'circle.png', 'correct_answer': 2}
+30.2143 	EXP 	left_stimuli: autoDraw = False
+30.2143 	EXP 	right_stimuli: autoDraw = False
+30.2143 	EXP 	target_stim: autoDraw = False
+30.2143 	EXP 	left_stimuli: autoDraw = False
+30.2143 	EXP 	right_stimuli: autoDraw = False
+30.2143 	EXP 	target_stim: autoDraw = False
+30.2143 	EXP 	left_stimuli: image = 'orizontal.png'
+30.2143 	EXP 	right_stimuli: image = 'circle.png'
+30.2143 	EXP 	target_stim: image = 'circle.png'
+30.6866 	EXP 	left_stimuli: autoDraw = True
+30.6866 	EXP 	right_stimuli: autoDraw = True
+30.6866 	EXP 	target_stim: autoDraw = True
+34.6832 	EXP 	New trial (rep=0, index=5): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'orizontal.png', 'target': 'vertical.png', 'correct_answer': 1}
+34.7268 	EXP 	left_stimuli: autoDraw = False
+34.7268 	EXP 	right_stimuli: autoDraw = False
+34.7268 	EXP 	target_stim: autoDraw = False
+34.7268 	EXP 	left_stimuli: autoDraw = False
+34.7268 	EXP 	right_stimuli: autoDraw = False
+34.7268 	EXP 	target_stim: autoDraw = False
+34.7268 	EXP 	left_stimuli: image = 'vertical.png'
+34.7268 	EXP 	right_stimuli: image = 'orizontal.png'
+34.7268 	EXP 	target_stim: image = 'vertical.png'
+35.1863 	EXP 	left_stimuli: autoDraw = True
+35.1863 	EXP 	right_stimuli: autoDraw = True
+35.1863 	EXP 	target_stim: autoDraw = True
+39.1716 	EXP 	New trial (rep=0, index=6): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'vertical.png', 'target': 'circle.png', 'correct_answer': 1}
+39.2181 	EXP 	left_stimuli: autoDraw = False
+39.2181 	EXP 	right_stimuli: autoDraw = False
+39.2181 	EXP 	target_stim: autoDraw = False
+39.2181 	EXP 	left_stimuli: autoDraw = False
+39.2181 	EXP 	right_stimuli: autoDraw = False
+39.2181 	EXP 	target_stim: autoDraw = False
+39.2181 	EXP 	left_stimuli: image = 'circle.png'
+39.2181 	EXP 	right_stimuli: image = 'vertical.png'
+39.2181 	EXP 	target_stim: image = 'circle.png'
+39.6869 	EXP 	left_stimuli: autoDraw = True
+39.6869 	EXP 	right_stimuli: autoDraw = True
+39.6869 	EXP 	target_stim: autoDraw = True
+43.6701 	EXP 	New trial (rep=0, index=7): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'circle.png', 'target': 'orizontal.png', 'correct_answer': 1}
+43.7120 	EXP 	left_stimuli: autoDraw = False
+43.7120 	EXP 	right_stimuli: autoDraw = False
+43.7120 	EXP 	target_stim: autoDraw = False
+43.7120 	EXP 	left_stimuli: autoDraw = False
+43.7120 	EXP 	right_stimuli: autoDraw = False
+43.7120 	EXP 	target_stim: autoDraw = False
+43.7120 	EXP 	left_stimuli: image = 'orizontal.png'
+43.7120 	EXP 	right_stimuli: image = 'circle.png'
+43.7120 	EXP 	target_stim: image = 'orizontal.png'
+44.1870 	EXP 	left_stimuli: autoDraw = True
+44.1870 	EXP 	right_stimuli: autoDraw = True
+44.1870 	EXP 	target_stim: autoDraw = True
+48.1830 	EXP 	New trial (rep=0, index=8): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'vertical.png', 'target': 'vertical.png', 'correct_answer': 2}
+48.2302 	EXP 	left_stimuli: autoDraw = False
+48.2302 	EXP 	right_stimuli: autoDraw = False
+48.2302 	EXP 	target_stim: autoDraw = False
+48.2302 	EXP 	left_stimuli: autoDraw = False
+48.2302 	EXP 	right_stimuli: autoDraw = False
+48.2302 	EXP 	target_stim: autoDraw = False
+48.2302 	EXP 	left_stimuli: image = 'circle.png'
+48.2302 	EXP 	right_stimuli: image = 'vertical.png'
+48.2302 	EXP 	target_stim: image = 'vertical.png'
+48.6861 	EXP 	left_stimuli: autoDraw = True
+48.6861 	EXP 	right_stimuli: autoDraw = True
+48.6861 	EXP 	target_stim: autoDraw = True
+52.6703 	EXP 	New trial (rep=0, index=9): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'circle.png', 'correct_answer': 1}
+52.7123 	EXP 	left_stimuli: autoDraw = False
+52.7123 	EXP 	right_stimuli: autoDraw = False
+52.7123 	EXP 	target_stim: autoDraw = False
+52.7123 	EXP 	left_stimuli: autoDraw = False
+52.7123 	EXP 	right_stimuli: autoDraw = False
+52.7123 	EXP 	target_stim: autoDraw = False
+52.7123 	EXP 	left_stimuli: image = 'circle.png'
+52.7123 	EXP 	right_stimuli: image = 'orizontal.png'
+52.7123 	EXP 	target_stim: image = 'circle.png'
+53.1872 	EXP 	left_stimuli: autoDraw = True
+53.1872 	EXP 	right_stimuli: autoDraw = True
+53.1872 	EXP 	target_stim: autoDraw = True
+57.1837 	EXP 	New trial (rep=0, index=10): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'vertical.png', 'target': 'orizontal.png', 'correct_answer': 1}
+57.2267 	EXP 	left_stimuli: autoDraw = False
+57.2267 	EXP 	right_stimuli: autoDraw = False
+57.2267 	EXP 	target_stim: autoDraw = False
+57.2267 	EXP 	left_stimuli: autoDraw = False
+57.2267 	EXP 	right_stimuli: autoDraw = False
+57.2267 	EXP 	target_stim: autoDraw = False
+57.2267 	EXP 	left_stimuli: image = 'orizontal.png'
+57.2267 	EXP 	right_stimuli: image = 'vertical.png'
+57.2267 	EXP 	target_stim: image = 'orizontal.png'
+57.6862 	EXP 	left_stimuli: autoDraw = True
+57.6862 	EXP 	right_stimuli: autoDraw = True
+57.6862 	EXP 	target_stim: autoDraw = True
+61.6698 	EXP 	New trial (rep=0, index=11): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+61.7108 	EXP 	left_stimuli: autoDraw = False
+61.7108 	EXP 	right_stimuli: autoDraw = False
+61.7108 	EXP 	target_stim: autoDraw = False
+61.7108 	EXP 	left_stimuli: autoDraw = False
+61.7108 	EXP 	right_stimuli: autoDraw = False
+61.7108 	EXP 	target_stim: autoDraw = False
+61.7108 	EXP 	left_stimuli: image = 'vertical.png'
+61.7108 	EXP 	right_stimuli: image = 'orizontal.png'
+61.7108 	EXP 	target_stim: image = 'orizontal.png'
+62.1861 	EXP 	left_stimuli: autoDraw = True
+62.1861 	EXP 	right_stimuli: autoDraw = True
+62.1861 	EXP 	target_stim: autoDraw = True
+66.1818 	EXP 	left_stimuli: autoDraw = False
+66.1818 	EXP 	right_stimuli: autoDraw = False
+66.1818 	EXP 	target_stim: autoDraw = False
+66.1818 	EXP 	left_stimuli: autoDraw = False
+66.1818 	EXP 	right_stimuli: autoDraw = False
+66.1818 	EXP 	target_stim: autoDraw = False
+66.1895 	EXP 	blanc: autoDraw = True
+70.1829 	EXP 	New trial (rep=0, index=1): {'condsFile': 'Neutral.xlsx', 'readyMSG': 'Comparez les visages'}
+70.2061 	EXP 	blanc: autoDraw = False
+70.2061 	EXP 	blanc: autoDraw = False
+70.2061 	EXP 	textbox: autoDraw = True
+72.2088 	EXP 	Imported Neutral.xlsx as conditions, 6 conditions, 5 params
+72.2095 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+72.2099 	EXP 	New trial (rep=0, index=0): {'condition': 'Neutral', 'stimuli_left': 'F07NE.png', 'stimuli_right': 'F29NE.png', 'target': 'F07NE.png', 'correct_answer': 1}
+72.2485 	EXP 	textbox: autoDraw = False
+72.2485 	EXP 	left_stimuli: image = 'F07NE.png'
+72.2485 	EXP 	right_stimuli: image = 'F29NE.png'
+72.2485 	EXP 	target_stim: image = 'F07NE.png'
+72.6859 	EXP 	left_stimuli: autoDraw = True
+72.6859 	EXP 	right_stimuli: autoDraw = True
+72.6859 	EXP 	target_stim: autoDraw = True
+76.6701 	EXP 	New trial (rep=0, index=1): {'condition': 'Neutral', 'stimuli_left': 'M10NE.png', 'stimuli_right': 'M11NE.png', 'target': 'M10NE.png', 'correct_answer': 1}
+76.7191 	EXP 	left_stimuli: autoDraw = False
+76.7191 	EXP 	right_stimuli: autoDraw = False
+76.7191 	EXP 	target_stim: autoDraw = False
+76.7191 	EXP 	left_stimuli: autoDraw = False
+76.7191 	EXP 	right_stimuli: autoDraw = False
+76.7191 	EXP 	target_stim: autoDraw = False
+76.7191 	EXP 	left_stimuli: image = 'M10NE.png'
+76.7191 	EXP 	right_stimuli: image = 'M11NE.png'
+76.7191 	EXP 	target_stim: image = 'M10NE.png'
+77.1868 	EXP 	left_stimuli: autoDraw = True
+77.1868 	EXP 	right_stimuli: autoDraw = True
+77.1868 	EXP 	target_stim: autoDraw = True
+81.1831 	EXP 	New trial (rep=0, index=2): {'condition': 'Neutral', 'stimuli_left': 'M13NE.png', 'stimuli_right': 'M07NE.png', 'target': 'M07NE.png', 'correct_answer': 2}
+81.2314 	EXP 	left_stimuli: autoDraw = False
+81.2314 	EXP 	right_stimuli: autoDraw = False
+81.2314 	EXP 	target_stim: autoDraw = False
+81.2314 	EXP 	left_stimuli: autoDraw = False
+81.2314 	EXP 	right_stimuli: autoDraw = False
+81.2314 	EXP 	target_stim: autoDraw = False
+81.2314 	EXP 	left_stimuli: image = 'M13NE.png'
+81.2314 	EXP 	right_stimuli: image = 'M07NE.png'
+81.2314 	EXP 	target_stim: image = 'M07NE.png'
+81.6867 	EXP 	left_stimuli: autoDraw = True
+81.6867 	EXP 	right_stimuli: autoDraw = True
+81.6867 	EXP 	target_stim: autoDraw = True
+85.6714 	EXP 	New trial (rep=0, index=3): {'condition': 'Neutral', 'stimuli_left': 'F06NE.png', 'stimuli_right': 'F13NE.png', 'target': 'F13NE.png', 'correct_answer': 2}
+85.7199 	EXP 	left_stimuli: autoDraw = False
+85.7199 	EXP 	right_stimuli: autoDraw = False
+85.7199 	EXP 	target_stim: autoDraw = False
+85.7199 	EXP 	left_stimuli: autoDraw = False
+85.7199 	EXP 	right_stimuli: autoDraw = False
+85.7199 	EXP 	target_stim: autoDraw = False
+85.7199 	EXP 	left_stimuli: image = 'F06NE.png'
+85.7199 	EXP 	right_stimuli: image = 'F13NE.png'
+85.7199 	EXP 	target_stim: image = 'F13NE.png'
+86.1866 	EXP 	left_stimuli: autoDraw = True
+86.1866 	EXP 	right_stimuli: autoDraw = True
+86.1866 	EXP 	target_stim: autoDraw = True
+90.1703 	EXP 	New trial (rep=0, index=4): {'condition': 'Neutral', 'stimuli_left': 'M01NE.png', 'stimuli_right': 'M31NE.png', 'target': 'M01NE.png', 'correct_answer': 1}
+90.2193 	EXP 	left_stimuli: autoDraw = False
+90.2193 	EXP 	right_stimuli: autoDraw = False
+90.2193 	EXP 	target_stim: autoDraw = False
+90.2193 	EXP 	left_stimuli: autoDraw = False
+90.2193 	EXP 	right_stimuli: autoDraw = False
+90.2193 	EXP 	target_stim: autoDraw = False
+90.2193 	EXP 	left_stimuli: image = 'M01NE.png'
+90.2193 	EXP 	right_stimuli: image = 'M31NE.png'
+90.2193 	EXP 	target_stim: image = 'M01NE.png'
+90.6818 	EXP 	left_stimuli: autoDraw = True
+90.6818 	EXP 	right_stimuli: autoDraw = True
+90.6818 	EXP 	target_stim: autoDraw = True
+94.6663 	EXP 	New trial (rep=0, index=5): {'condition': 'Neutral', 'stimuli_left': 'F05NE.png', 'stimuli_right': 'F19NE.png', 'target': 'F19NE.png', 'correct_answer': 2}
+94.7153 	EXP 	left_stimuli: autoDraw = False
+94.7153 	EXP 	right_stimuli: autoDraw = False
+94.7153 	EXP 	target_stim: autoDraw = False
+94.7153 	EXP 	left_stimuli: autoDraw = False
+94.7153 	EXP 	right_stimuli: autoDraw = False
+94.7153 	EXP 	target_stim: autoDraw = False
+94.7153 	EXP 	left_stimuli: image = 'F05NE.png'
+94.7153 	EXP 	right_stimuli: image = 'F19NE.png'
+94.7153 	EXP 	target_stim: image = 'F19NE.png'
+95.1857 	EXP 	left_stimuli: autoDraw = True
+95.1857 	EXP 	right_stimuli: autoDraw = True
+95.1857 	EXP 	target_stim: autoDraw = True
+99.1819 	EXP 	left_stimuli: autoDraw = False
+99.1819 	EXP 	right_stimuli: autoDraw = False
+99.1819 	EXP 	target_stim: autoDraw = False
+99.1819 	EXP 	left_stimuli: autoDraw = False
+99.1819 	EXP 	right_stimuli: autoDraw = False
+99.1819 	EXP 	target_stim: autoDraw = False
+99.1858 	EXP 	blanc: autoDraw = True
+103.1693 	EXP 	New trial (rep=0, index=2): {'condsFile': 'shapes.xlsx', 'readyMSG': 'Comparez les formes'}
+103.1818 	EXP 	blanc: autoDraw = False
+103.1818 	EXP 	blanc: autoDraw = False
+103.1888 	EXP 	textbox: autoDraw = True
+105.1929 	EXP 	Imported shapes.xlsx as conditions, 12 conditions, 5 params
+105.1939 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+105.1944 	EXP 	New trial (rep=0, index=0): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+105.2245 	EXP 	textbox: autoDraw = False
+105.2245 	EXP 	textbox: autoDraw = False
+105.2245 	EXP 	left_stimuli: image = 'circle.png'
+105.2245 	EXP 	right_stimuli: image = 'orizontal.png'
+105.2245 	EXP 	target_stim: image = 'orizontal.png'
+105.6856 	EXP 	left_stimuli: autoDraw = True
+105.6856 	EXP 	right_stimuli: autoDraw = True
+105.6856 	EXP 	target_stim: autoDraw = True
+109.6698 	EXP 	New trial (rep=0, index=1): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'circle.png', 'correct_answer': 1}
+109.7096 	EXP 	left_stimuli: autoDraw = False
+109.7096 	EXP 	right_stimuli: autoDraw = False
+109.7096 	EXP 	target_stim: autoDraw = False
+109.7096 	EXP 	left_stimuli: autoDraw = False
+109.7096 	EXP 	right_stimuli: autoDraw = False
+109.7096 	EXP 	target_stim: autoDraw = False
+109.7096 	EXP 	left_stimuli: image = 'circle.png'
+109.7096 	EXP 	right_stimuli: image = 'orizontal.png'
+109.7096 	EXP 	target_stim: image = 'circle.png'
+110.1858 	EXP 	left_stimuli: autoDraw = True
+110.1858 	EXP 	right_stimuli: autoDraw = True
+110.1858 	EXP 	target_stim: autoDraw = True
+114.1701 	EXP 	New trial (rep=0, index=2): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'circle.png', 'target': 'circle.png', 'correct_answer': 2}
+114.2114 	EXP 	left_stimuli: autoDraw = False
+114.2114 	EXP 	right_stimuli: autoDraw = False
+114.2114 	EXP 	target_stim: autoDraw = False
+114.2114 	EXP 	left_stimuli: autoDraw = False
+114.2114 	EXP 	right_stimuli: autoDraw = False
+114.2114 	EXP 	target_stim: autoDraw = False
+114.2114 	EXP 	left_stimuli: image = 'orizontal.png'
+114.2114 	EXP 	right_stimuli: image = 'circle.png'
+114.2114 	EXP 	target_stim: image = 'circle.png'
+114.6858 	EXP 	left_stimuli: autoDraw = True
+114.6858 	EXP 	right_stimuli: autoDraw = True
+114.6858 	EXP 	target_stim: autoDraw = True
+118.6710 	EXP 	New trial (rep=0, index=3): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'vertical.png', 'target': 'vertical.png', 'correct_answer': 2}
+118.7156 	EXP 	left_stimuli: autoDraw = False
+118.7156 	EXP 	right_stimuli: autoDraw = False
+118.7156 	EXP 	target_stim: autoDraw = False
+118.7156 	EXP 	left_stimuli: autoDraw = False
+118.7156 	EXP 	right_stimuli: autoDraw = False
+118.7156 	EXP 	target_stim: autoDraw = False
+118.7156 	EXP 	left_stimuli: image = 'orizontal.png'
+118.7156 	EXP 	right_stimuli: image = 'vertical.png'
+118.7156 	EXP 	target_stim: image = 'vertical.png'
+119.1868 	EXP 	left_stimuli: autoDraw = True
+119.1868 	EXP 	right_stimuli: autoDraw = True
+119.1868 	EXP 	target_stim: autoDraw = True
+123.1711 	EXP 	New trial (rep=0, index=4): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'vertical.png', 'target': 'orizontal.png', 'correct_answer': 1}
+123.2091 	EXP 	left_stimuli: autoDraw = False
+123.2091 	EXP 	right_stimuli: autoDraw = False
+123.2091 	EXP 	target_stim: autoDraw = False
+123.2091 	EXP 	left_stimuli: autoDraw = False
+123.2091 	EXP 	right_stimuli: autoDraw = False
+123.2091 	EXP 	target_stim: autoDraw = False
+123.2091 	EXP 	left_stimuli: image = 'orizontal.png'
+123.2091 	EXP 	right_stimuli: image = 'vertical.png'
+123.2091 	EXP 	target_stim: image = 'orizontal.png'
+123.6868 	EXP 	left_stimuli: autoDraw = True
+123.6868 	EXP 	right_stimuli: autoDraw = True
+123.6868 	EXP 	target_stim: autoDraw = True
+127.6827 	EXP 	New trial (rep=0, index=5): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'vertical.png', 'target': 'circle.png', 'correct_answer': 1}
+127.7264 	EXP 	left_stimuli: autoDraw = False
+127.7264 	EXP 	right_stimuli: autoDraw = False
+127.7264 	EXP 	target_stim: autoDraw = False
+127.7264 	EXP 	left_stimuli: autoDraw = False
+127.7264 	EXP 	right_stimuli: autoDraw = False
+127.7264 	EXP 	target_stim: autoDraw = False
+127.7264 	EXP 	left_stimuli: image = 'circle.png'
+127.7264 	EXP 	right_stimuli: image = 'vertical.png'
+127.7264 	EXP 	target_stim: image = 'circle.png'
+128.1856 	EXP 	left_stimuli: autoDraw = True
+128.1856 	EXP 	right_stimuli: autoDraw = True
+128.1856 	EXP 	target_stim: autoDraw = True
+132.1695 	EXP 	New trial (rep=0, index=6): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'circle.png', 'target': 'orizontal.png', 'correct_answer': 1}
+132.2105 	EXP 	left_stimuli: autoDraw = False
+132.2105 	EXP 	right_stimuli: autoDraw = False
+132.2105 	EXP 	target_stim: autoDraw = False
+132.2105 	EXP 	left_stimuli: autoDraw = False
+132.2105 	EXP 	right_stimuli: autoDraw = False
+132.2105 	EXP 	target_stim: autoDraw = False
+132.2105 	EXP 	left_stimuli: image = 'orizontal.png'
+132.2105 	EXP 	right_stimuli: image = 'circle.png'
+132.2105 	EXP 	target_stim: image = 'orizontal.png'
+132.6858 	EXP 	left_stimuli: autoDraw = True
+132.6858 	EXP 	right_stimuli: autoDraw = True
+132.6858 	EXP 	target_stim: autoDraw = True
+136.6698 	EXP 	New trial (rep=0, index=7): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'circle.png', 'target': 'vertical.png', 'correct_answer': 1}
+136.7158 	EXP 	left_stimuli: autoDraw = False
+136.7158 	EXP 	right_stimuli: autoDraw = False
+136.7158 	EXP 	target_stim: autoDraw = False
+136.7158 	EXP 	left_stimuli: autoDraw = False
+136.7158 	EXP 	right_stimuli: autoDraw = False
+136.7158 	EXP 	target_stim: autoDraw = False
+136.7158 	EXP 	left_stimuli: image = 'vertical.png'
+136.7158 	EXP 	right_stimuli: image = 'circle.png'
+136.7158 	EXP 	target_stim: image = 'vertical.png'
+137.1858 	EXP 	left_stimuli: autoDraw = True
+137.1858 	EXP 	right_stimuli: autoDraw = True
+137.1858 	EXP 	target_stim: autoDraw = True
+141.1701 	EXP 	New trial (rep=0, index=8): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'circle.png', 'target': 'circle.png', 'correct_answer': 2}
+141.2118 	EXP 	left_stimuli: autoDraw = False
+141.2118 	EXP 	right_stimuli: autoDraw = False
+141.2118 	EXP 	target_stim: autoDraw = False
+141.2118 	EXP 	left_stimuli: autoDraw = False
+141.2118 	EXP 	right_stimuli: autoDraw = False
+141.2118 	EXP 	target_stim: autoDraw = False
+141.2118 	EXP 	left_stimuli: image = 'vertical.png'
+141.2118 	EXP 	right_stimuli: image = 'circle.png'
+141.2118 	EXP 	target_stim: image = 'circle.png'
+141.6858 	EXP 	left_stimuli: autoDraw = True
+141.6858 	EXP 	right_stimuli: autoDraw = True
+141.6858 	EXP 	target_stim: autoDraw = True
+145.6697 	EXP 	New trial (rep=0, index=9): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'vertical.png', 'target': 'vertical.png', 'correct_answer': 2}
+145.7152 	EXP 	left_stimuli: autoDraw = False
+145.7152 	EXP 	right_stimuli: autoDraw = False
+145.7152 	EXP 	target_stim: autoDraw = False
+145.7152 	EXP 	left_stimuli: autoDraw = False
+145.7152 	EXP 	right_stimuli: autoDraw = False
+145.7152 	EXP 	target_stim: autoDraw = False
+145.7152 	EXP 	left_stimuli: image = 'circle.png'
+145.7152 	EXP 	right_stimuli: image = 'vertical.png'
+145.7152 	EXP 	target_stim: image = 'vertical.png'
+146.1862 	EXP 	left_stimuli: autoDraw = True
+146.1862 	EXP 	right_stimuli: autoDraw = True
+146.1862 	EXP 	target_stim: autoDraw = True
+150.1697 	EXP 	New trial (rep=0, index=10): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+150.2114 	EXP 	left_stimuli: autoDraw = False
+150.2114 	EXP 	right_stimuli: autoDraw = False
+150.2114 	EXP 	target_stim: autoDraw = False
+150.2114 	EXP 	left_stimuli: autoDraw = False
+150.2114 	EXP 	right_stimuli: autoDraw = False
+150.2114 	EXP 	target_stim: autoDraw = False
+150.2114 	EXP 	left_stimuli: image = 'vertical.png'
+150.2114 	EXP 	right_stimuli: image = 'orizontal.png'
+150.2114 	EXP 	target_stim: image = 'orizontal.png'
+150.6856 	EXP 	left_stimuli: autoDraw = True
+150.6856 	EXP 	right_stimuli: autoDraw = True
+150.6856 	EXP 	target_stim: autoDraw = True
+154.6697 	EXP 	New trial (rep=0, index=11): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'orizontal.png', 'target': 'vertical.png', 'correct_answer': 1}
+154.7100 	EXP 	left_stimuli: autoDraw = False
+154.7100 	EXP 	right_stimuli: autoDraw = False
+154.7100 	EXP 	target_stim: autoDraw = False
+154.7100 	EXP 	left_stimuli: autoDraw = False
+154.7100 	EXP 	right_stimuli: autoDraw = False
+154.7100 	EXP 	target_stim: autoDraw = False
+154.7100 	EXP 	left_stimuli: image = 'vertical.png'
+154.7100 	EXP 	right_stimuli: image = 'orizontal.png'
+154.7100 	EXP 	target_stim: image = 'vertical.png'
+155.1865 	EXP 	left_stimuli: autoDraw = True
+155.1865 	EXP 	right_stimuli: autoDraw = True
+155.1865 	EXP 	target_stim: autoDraw = True
+159.1818 	EXP 	left_stimuli: autoDraw = False
+159.1818 	EXP 	right_stimuli: autoDraw = False
+159.1818 	EXP 	target_stim: autoDraw = False
+159.1818 	EXP 	left_stimuli: autoDraw = False
+159.1818 	EXP 	right_stimuli: autoDraw = False
+159.1818 	EXP 	target_stim: autoDraw = False
+159.1857 	EXP 	blanc: autoDraw = True
+163.1700 	EXP 	New trial (rep=0, index=3): {'condsFile': 'Surprised.xlsx', 'readyMSG': 'Comparez les visages'}
+163.1819 	EXP 	blanc: autoDraw = False
+163.1819 	EXP 	blanc: autoDraw = False
+163.1892 	EXP 	textbox: autoDraw = True
+165.1947 	EXP 	Imported Surprised.xlsx as conditions, 6 conditions, 5 params
+165.1956 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+165.1960 	EXP 	New trial (rep=0, index=0): {'condition': 'Surprised', 'stimuli_left': 'F32SU.png', 'stimuli_right': 'F22SU.png', 'target': 'F32SU.png', 'correct_answer': 1}
+165.2322 	EXP 	textbox: autoDraw = False
+165.2322 	EXP 	textbox: autoDraw = False
+165.2322 	EXP 	left_stimuli: image = 'F32SU.png'
+165.2322 	EXP 	right_stimuli: image = 'F22SU.png'
+165.2322 	EXP 	target_stim: image = 'F32SU.png'
+165.6852 	EXP 	left_stimuli: autoDraw = True
+165.6852 	EXP 	right_stimuli: autoDraw = True
+165.6852 	EXP 	target_stim: autoDraw = True
+169.6698 	EXP 	New trial (rep=0, index=1): {'condition': 'Surprised', 'stimuli_left': 'F01SU.png', 'stimuli_right': 'F35SU.png', 'target': 'F35SU.png', 'correct_answer': 2}
+169.7165 	EXP 	left_stimuli: autoDraw = False
+169.7165 	EXP 	right_stimuli: autoDraw = False
+169.7165 	EXP 	target_stim: autoDraw = False
+169.7165 	EXP 	left_stimuli: autoDraw = False
+169.7165 	EXP 	right_stimuli: autoDraw = False
+169.7165 	EXP 	target_stim: autoDraw = False
+169.7165 	EXP 	left_stimuli: image = 'F01SU.png'
+169.7165 	EXP 	right_stimuli: image = 'F35SU.png'
+169.7165 	EXP 	target_stim: image = 'F35SU.png'
+170.1857 	EXP 	left_stimuli: autoDraw = True
+170.1857 	EXP 	right_stimuli: autoDraw = True
+170.1857 	EXP 	target_stim: autoDraw = True
+174.1698 	EXP 	New trial (rep=0, index=2): {'condition': 'Surprised', 'stimuli_left': 'M09SU.png', 'stimuli_right': 'M35SU.png', 'target': 'M09SU.png', 'correct_answer': 1}
+174.2184 	EXP 	left_stimuli: autoDraw = False
+174.2184 	EXP 	right_stimuli: autoDraw = False
+174.2184 	EXP 	target_stim: autoDraw = False
+174.2184 	EXP 	left_stimuli: autoDraw = False
+174.2184 	EXP 	right_stimuli: autoDraw = False
+174.2184 	EXP 	target_stim: autoDraw = False
+174.2184 	EXP 	left_stimuli: image = 'M09SU.png'
+174.2184 	EXP 	right_stimuli: image = 'M35SU.png'
+174.2184 	EXP 	target_stim: image = 'M09SU.png'
+174.6856 	EXP 	left_stimuli: autoDraw = True
+174.6856 	EXP 	right_stimuli: autoDraw = True
+174.6856 	EXP 	target_stim: autoDraw = True
+178.6699 	EXP 	New trial (rep=0, index=3): {'condition': 'Surprised', 'stimuli_left': 'M01SU.png', 'stimuli_right': 'M16SU.png', 'target': 'M16SU.png', 'correct_answer': 2}
+178.7177 	EXP 	left_stimuli: autoDraw = False
+178.7177 	EXP 	right_stimuli: autoDraw = False
+178.7177 	EXP 	target_stim: autoDraw = False
+178.7177 	EXP 	left_stimuli: autoDraw = False
+178.7177 	EXP 	right_stimuli: autoDraw = False
+178.7177 	EXP 	target_stim: autoDraw = False
+178.7177 	EXP 	left_stimuli: image = 'M01SU.png'
+178.7177 	EXP 	right_stimuli: image = 'M16SU.png'
+178.7177 	EXP 	target_stim: image = 'M16SU.png'
+179.1857 	EXP 	left_stimuli: autoDraw = True
+179.1857 	EXP 	right_stimuli: autoDraw = True
+179.1857 	EXP 	target_stim: autoDraw = True
+183.1695 	EXP 	New trial (rep=0, index=4): {'condition': 'Surprised', 'stimuli_left': 'F13SU.png', 'stimuli_right': 'F24SU.png', 'target': 'F24SU.png', 'correct_answer': 2}
+183.2167 	EXP 	left_stimuli: autoDraw = False
+183.2167 	EXP 	right_stimuli: autoDraw = False
+183.2167 	EXP 	target_stim: autoDraw = False
+183.2167 	EXP 	left_stimuli: autoDraw = False
+183.2167 	EXP 	right_stimuli: autoDraw = False
+183.2167 	EXP 	target_stim: autoDraw = False
+183.2167 	EXP 	left_stimuli: image = 'F13SU.png'
+183.2167 	EXP 	right_stimuli: image = 'F24SU.png'
+183.2167 	EXP 	target_stim: image = 'F24SU.png'
+183.6856 	EXP 	left_stimuli: autoDraw = True
+183.6856 	EXP 	right_stimuli: autoDraw = True
+183.6856 	EXP 	target_stim: autoDraw = True
+187.6743 	EXP 	New trial (rep=0, index=5): {'condition': 'Surprised', 'stimuli_left': 'M28SU.png', 'stimuli_right': 'M11SU.png', 'target': 'M28SU.png', 'correct_answer': 1}
+187.7288 	EXP 	left_stimuli: autoDraw = False
+187.7288 	EXP 	right_stimuli: autoDraw = False
+187.7288 	EXP 	target_stim: autoDraw = False
+187.7288 	EXP 	left_stimuli: autoDraw = False
+187.7288 	EXP 	right_stimuli: autoDraw = False
+187.7288 	EXP 	target_stim: autoDraw = False
+187.7288 	EXP 	left_stimuli: image = 'M28SU.png'
+187.7288 	EXP 	right_stimuli: image = 'M11SU.png'
+187.7288 	EXP 	target_stim: image = 'M28SU.png'
+188.1991 	EXP 	left_stimuli: autoDraw = True
+188.1991 	EXP 	right_stimuli: autoDraw = True
+188.1991 	EXP 	target_stim: autoDraw = True
+192.1885 	EXP 	left_stimuli: autoDraw = False
+192.1885 	EXP 	right_stimuli: autoDraw = False
+192.1885 	EXP 	target_stim: autoDraw = False
+192.1885 	EXP 	left_stimuli: autoDraw = False
+192.1885 	EXP 	right_stimuli: autoDraw = False
+192.1885 	EXP 	target_stim: autoDraw = False
+192.1885 	EXP 	blanc: autoDraw = True
+196.1732 	EXP 	New trial (rep=0, index=4): {'condsFile': 'shapes.xlsx', 'readyMSG': 'Comparez les formes'}
+196.1855 	EXP 	blanc: autoDraw = False
+196.1855 	EXP 	blanc: autoDraw = False
+196.1855 	EXP 	textbox: autoDraw = True
+198.1860 	EXP 	Imported shapes.xlsx as conditions, 12 conditions, 5 params
+198.1871 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+198.1877 	EXP 	New trial (rep=0, index=0): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'orizontal.png', 'target': 'vertical.png', 'correct_answer': 1}
+198.2266 	EXP 	textbox: autoDraw = False
+198.2266 	EXP 	textbox: autoDraw = False
+198.2266 	EXP 	left_stimuli: image = 'vertical.png'
+198.2266 	EXP 	right_stimuli: image = 'orizontal.png'
+198.2266 	EXP 	target_stim: image = 'vertical.png'
+198.6823 	EXP 	left_stimuli: autoDraw = True
+198.6823 	EXP 	right_stimuli: autoDraw = True
+198.6823 	EXP 	target_stim: autoDraw = True
+202.6672 	EXP 	New trial (rep=0, index=1): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'circle.png', 'target': 'orizontal.png', 'correct_answer': 1}
+202.7140 	EXP 	left_stimuli: autoDraw = False
+202.7140 	EXP 	right_stimuli: autoDraw = False
+202.7140 	EXP 	target_stim: autoDraw = False
+202.7140 	EXP 	left_stimuli: autoDraw = False
+202.7140 	EXP 	right_stimuli: autoDraw = False
+202.7140 	EXP 	target_stim: autoDraw = False
+202.7140 	EXP 	left_stimuli: image = 'orizontal.png'
+202.7140 	EXP 	right_stimuli: image = 'circle.png'
+202.7140 	EXP 	target_stim: image = 'orizontal.png'
+203.1821 	EXP 	left_stimuli: autoDraw = True
+203.1821 	EXP 	right_stimuli: autoDraw = True
+203.1821 	EXP 	target_stim: autoDraw = True
+207.1676 	EXP 	New trial (rep=0, index=2): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+207.2146 	EXP 	left_stimuli: autoDraw = False
+207.2146 	EXP 	right_stimuli: autoDraw = False
+207.2146 	EXP 	target_stim: autoDraw = False
+207.2146 	EXP 	left_stimuli: autoDraw = False
+207.2146 	EXP 	right_stimuli: autoDraw = False
+207.2146 	EXP 	target_stim: autoDraw = False
+207.2146 	EXP 	left_stimuli: image = 'vertical.png'
+207.2146 	EXP 	right_stimuli: image = 'orizontal.png'
+207.2146 	EXP 	target_stim: image = 'orizontal.png'
+207.6889 	EXP 	left_stimuli: autoDraw = True
+207.6889 	EXP 	right_stimuli: autoDraw = True
+207.6889 	EXP 	target_stim: autoDraw = True
+211.6731 	EXP 	New trial (rep=0, index=3): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'circle.png', 'target': 'circle.png', 'correct_answer': 2}
+211.7259 	EXP 	left_stimuli: autoDraw = False
+211.7259 	EXP 	right_stimuli: autoDraw = False
+211.7259 	EXP 	target_stim: autoDraw = False
+211.7259 	EXP 	left_stimuli: autoDraw = False
+211.7259 	EXP 	right_stimuli: autoDraw = False
+211.7259 	EXP 	target_stim: autoDraw = False
+211.7259 	EXP 	left_stimuli: image = 'vertical.png'
+211.7259 	EXP 	right_stimuli: image = 'circle.png'
+211.7259 	EXP 	target_stim: image = 'circle.png'
+212.1821 	EXP 	left_stimuli: autoDraw = True
+212.1821 	EXP 	right_stimuli: autoDraw = True
+212.1821 	EXP 	target_stim: autoDraw = True
+216.1661 	EXP 	New trial (rep=0, index=4): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+216.1913 	EXP 	left_stimuli: autoDraw = False
+216.1913 	EXP 	right_stimuli: autoDraw = False
+216.1913 	EXP 	target_stim: autoDraw = False
+216.1913 	EXP 	left_stimuli: autoDraw = False
+216.1913 	EXP 	right_stimuli: autoDraw = False
+216.1913 	EXP 	target_stim: autoDraw = False
+216.1913 	EXP 	left_stimuli: image = 'circle.png'
+216.1913 	EXP 	right_stimuli: image = 'orizontal.png'
+216.1913 	EXP 	target_stim: image = 'orizontal.png'
+216.6821 	EXP 	left_stimuli: autoDraw = True
+216.6821 	EXP 	right_stimuli: autoDraw = True
+216.6821 	EXP 	target_stim: autoDraw = True
+220.6670 	EXP 	New trial (rep=0, index=5): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'vertical.png', 'target': 'vertical.png', 'correct_answer': 2}
+220.7175 	EXP 	left_stimuli: autoDraw = False
+220.7175 	EXP 	right_stimuli: autoDraw = False
+220.7175 	EXP 	target_stim: autoDraw = False
+220.7175 	EXP 	left_stimuli: autoDraw = False
+220.7175 	EXP 	right_stimuli: autoDraw = False
+220.7175 	EXP 	target_stim: autoDraw = False
+220.7175 	EXP 	left_stimuli: image = 'orizontal.png'
+220.7175 	EXP 	right_stimuli: image = 'vertical.png'
+220.7175 	EXP 	target_stim: image = 'vertical.png'
+221.1819 	EXP 	left_stimuli: autoDraw = True
+221.1819 	EXP 	right_stimuli: autoDraw = True
+221.1819 	EXP 	target_stim: autoDraw = True
+225.1668 	EXP 	New trial (rep=0, index=6): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'vertical.png', 'target': 'vertical.png', 'correct_answer': 2}
+225.2154 	EXP 	left_stimuli: autoDraw = False
+225.2154 	EXP 	right_stimuli: autoDraw = False
+225.2154 	EXP 	target_stim: autoDraw = False
+225.2154 	EXP 	left_stimuli: autoDraw = False
+225.2154 	EXP 	right_stimuli: autoDraw = False
+225.2154 	EXP 	target_stim: autoDraw = False
+225.2154 	EXP 	left_stimuli: image = 'circle.png'
+225.2154 	EXP 	right_stimuli: image = 'vertical.png'
+225.2154 	EXP 	target_stim: image = 'vertical.png'
+225.6821 	EXP 	left_stimuli: autoDraw = True
+225.6821 	EXP 	right_stimuli: autoDraw = True
+225.6821 	EXP 	target_stim: autoDraw = True
+229.6670 	EXP 	New trial (rep=0, index=7): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'vertical.png', 'target': 'circle.png', 'correct_answer': 1}
+229.7131 	EXP 	left_stimuli: autoDraw = False
+229.7131 	EXP 	right_stimuli: autoDraw = False
+229.7131 	EXP 	target_stim: autoDraw = False
+229.7131 	EXP 	left_stimuli: autoDraw = False
+229.7131 	EXP 	right_stimuli: autoDraw = False
+229.7131 	EXP 	target_stim: autoDraw = False
+229.7131 	EXP 	left_stimuli: image = 'circle.png'
+229.7131 	EXP 	right_stimuli: image = 'vertical.png'
+229.7131 	EXP 	target_stim: image = 'circle.png'
+230.1823 	EXP 	left_stimuli: autoDraw = True
+230.1823 	EXP 	right_stimuli: autoDraw = True
+230.1823 	EXP 	target_stim: autoDraw = True
+231.5733 	EXP 	window1: mouseVisible = True

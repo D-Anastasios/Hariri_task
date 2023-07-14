@@ -1,0 +1,102 @@
+1.2218 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.4576 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7feffc285910>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fefac9a1fa0>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 315.0], screen=0, size=array([4480, 2520]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.4582 	EXP 	window1: mouseVisible = True
+7.4592 	EXP 	window1: mouseVisible = False
+7.4593 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.4594 	EXP 	window1: recordFrameIntervals = False
+7.5617 	EXP 	window1: recordFrameIntervals = True
+7.6784 	WARNING 	t of last frame was 16.30ms (=1/61)
+7.8941 	WARNING 	t of last frame was 23.97ms (=1/41)
+7.9117 	WARNING 	t of last frame was 17.55ms (=1/56)
+7.9286 	WARNING 	t of last frame was 16.94ms (=1/59)
+7.9454 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+8.1386 	EXP 	Screen (0) actual frame rate measured at 91.26Hz
+8.1386 	EXP 	window1: recordFrameIntervals = False
+10.0867 	EXP 	Created left_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_stimuli', opacity=1.0, ori=0.0, pos=array([-0.3,  0.2]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+10.0898 	EXP 	Created right_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_stimuli', opacity=1.0, ori=0.0, pos=array([0.3, 0.2]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+10.0925 	EXP 	Created target_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_stim', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+10.0948 	EXP 	Created fix_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fix_cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.1022 	EXP 	Imported chooseBlocksA.xlsx as conditions, 9 conditions, 3 params
+10.1030 	EXP 	Created sequence: sequential, trialTypes=9, nReps=2, seed=None
+10.1033 	EXP 	New trial (rep=0, index=0): {'condsFile': 'shapes.xlsx', 'readyMSG': 'Comparez les formes', 'jitter': 3}
+10.1500 	EXP 	textbox: autoLog = True
+10.1500 	EXP 	textbox: autoDraw = True
+12.1044 	EXP 	Imported shapes.xlsx as conditions, 12 conditions, 5 params
+12.1059 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+12.1061 	EXP 	New trial (rep=0, index=0): {'condition': 'shapes', 'stimuli_left': 'orizontal.png', 'stimuli_right': 'vertical.png', 'target': 'vertical.png', 'correct_answer': 2}
+12.1327 	EXP 	textbox: autoDraw = False
+12.1327 	EXP 	left_stimuli: image = 'orizontal.png'
+12.1327 	EXP 	right_stimuli: image = 'vertical.png'
+12.1327 	EXP 	target_stim: image = 'vertical.png'
+12.6108 	EXP 	left_stimuli: autoDraw = True
+12.6108 	EXP 	right_stimuli: autoDraw = True
+12.6108 	EXP 	target_stim: autoDraw = True
+16.6058 	EXP 	New trial (rep=0, index=1): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+16.6309 	EXP 	left_stimuli: autoDraw = False
+16.6309 	EXP 	right_stimuli: autoDraw = False
+16.6309 	EXP 	target_stim: autoDraw = False
+16.6309 	EXP 	left_stimuli: image = 'vertical.png'
+16.6309 	EXP 	right_stimuli: image = 'orizontal.png'
+16.6309 	EXP 	target_stim: image = 'orizontal.png'
+17.0990 	EXP 	left_stimuli: autoDraw = True
+17.0990 	EXP 	right_stimuli: autoDraw = True
+17.0990 	EXP 	target_stim: autoDraw = True
+21.0917 	EXP 	New trial (rep=0, index=2): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'vertical.png', 'target': 'vertical.png', 'correct_answer': 2}
+21.1164 	EXP 	left_stimuli: autoDraw = False
+21.1164 	EXP 	right_stimuli: autoDraw = False
+21.1164 	EXP 	target_stim: autoDraw = False
+21.1164 	EXP 	left_stimuli: autoDraw = False
+21.1164 	EXP 	right_stimuli: autoDraw = False
+21.1164 	EXP 	target_stim: autoDraw = False
+21.1164 	EXP 	left_stimuli: image = 'circle.png'
+21.1164 	EXP 	right_stimuli: image = 'vertical.png'
+21.1164 	EXP 	target_stim: image = 'vertical.png'
+21.6045 	EXP 	left_stimuli: autoDraw = True
+21.6045 	EXP 	right_stimuli: autoDraw = True
+21.6045 	EXP 	target_stim: autoDraw = True
+25.5959 	EXP 	New trial (rep=0, index=3): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'circle.png', 'correct_answer': 1}
+25.6196 	EXP 	left_stimuli: autoDraw = False
+25.6196 	EXP 	right_stimuli: autoDraw = False
+25.6196 	EXP 	target_stim: autoDraw = False
+25.6196 	EXP 	left_stimuli: autoDraw = False
+25.6196 	EXP 	right_stimuli: autoDraw = False
+25.6196 	EXP 	target_stim: autoDraw = False
+25.6196 	EXP 	left_stimuli: image = 'circle.png'
+25.6196 	EXP 	right_stimuli: image = 'orizontal.png'
+25.6196 	EXP 	target_stim: image = 'circle.png'
+26.1003 	EXP 	left_stimuli: autoDraw = True
+26.1003 	EXP 	right_stimuli: autoDraw = True
+26.1003 	EXP 	target_stim: autoDraw = True
+30.0920 	EXP 	New trial (rep=0, index=4): {'condition': 'shapes', 'stimuli_left': 'vertical.png', 'stimuli_right': 'orizontal.png', 'target': 'vertical.png', 'correct_answer': 1}
+30.1171 	EXP 	left_stimuli: autoDraw = False
+30.1171 	EXP 	right_stimuli: autoDraw = False
+30.1171 	EXP 	target_stim: autoDraw = False
+30.1171 	EXP 	left_stimuli: autoDraw = False
+30.1171 	EXP 	right_stimuli: autoDraw = False
+30.1171 	EXP 	target_stim: autoDraw = False
+30.1171 	EXP 	left_stimuli: image = 'vertical.png'
+30.1171 	EXP 	right_stimuli: image = 'orizontal.png'
+30.1171 	EXP 	target_stim: image = 'vertical.png'
+30.6072 	EXP 	left_stimuli: autoDraw = True
+30.6072 	EXP 	right_stimuli: autoDraw = True
+30.6072 	EXP 	target_stim: autoDraw = True
+34.6025 	EXP 	New trial (rep=0, index=5): {'condition': 'shapes', 'stimuli_left': 'circle.png', 'stimuli_right': 'orizontal.png', 'target': 'orizontal.png', 'correct_answer': 2}
+34.6276 	EXP 	left_stimuli: autoDraw = False
+34.6276 	EXP 	right_stimuli: autoDraw = False
+34.6276 	EXP 	target_stim: autoDraw = False
+34.6276 	EXP 	left_stimuli: image = 'circle.png'
+34.6276 	EXP 	right_stimuli: image = 'orizontal.png'
+34.6276 	EXP 	target_stim: image = 'orizontal.png'
+35.1060 	EXP 	left_stimuli: autoDraw = True
+35.1060 	EXP 	right_stimuli: autoDraw = True
+35.1060 	EXP 	target_stim: autoDraw = True
+39.1154 	EXP 	left_stimuli: autoDraw = False
+39.1154 	EXP 	right_stimuli: autoDraw = False
+39.1154 	EXP 	target_stim: autoDraw = False
+39.1154 	EXP 	fix_cross: autoDraw = True
+42.1069 	EXP 	New trial (rep=0, index=1): {'condsFile': 'Angry.xlsx', 'readyMSG': 'Comparez les visages', 'jitter': 6}
+42.1446 	EXP 	fix_cross: autoDraw = False
+42.1446 	EXP 	fix_cross: autoDraw = False
+42.1446 	EXP 	textbox: autoDraw = True
+42.6111 	DATA 	Keypress: escape
+42.8738 	EXP 	window1: mouseVisible = True
